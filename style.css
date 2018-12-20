@@ -1,0 +1,73 @@
+body {
+  font-family: "Helvetica Neue", 'Helvetica', sans-serif;
+  color: #666;
+  margin: 1em;
+  line-height: 2;
+}
+/*#footer {
+  position: fixed;
+  margin-top: 50px;
+  bottom: 0px;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+}*/
+a:link,
+a:visited /* styles the links */ {
+  color: #f00;
+  text-decoration: none;
+  padding-bottom: 0.1875em; /* 3px / 16px */
+}
+a:hover /* changes the colour of text when hovered */ {
+  color: #fe580f;
+  cursor: pointer;
+}
+.hide--first > *:first-child {
+  display: none;
+}
+.hide--second > *:last-child {
+  display: none;
+}
+.message {
+  font-size: 1.5em;
+  text-align: center;
+  width: 42%;
+  padding: 0 2%;
+  float: left;
+  background: #eee;
+}
+.message:last-of-type {
+  float: right;
+}
+.close {
+  color: #f00;
+  position: absolute;
+  text-transform: lowercase;
+  right: 20px;
+  font-size: 1.5em;
+  top: 10px;
+  line-height: 1;
+  border: none !important;
+}
+p.info {
+  font-size: 19px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+p.info span {  color: #666 }
+footer:before{
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  padding-top: 40%;
+  color: #888;
+  text-align: center;
+}
+.twitter-share-button {
+  vertical-align: -15%;
+  margin-right: -25px !important;
+}
